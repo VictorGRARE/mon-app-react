@@ -35,7 +35,7 @@ function Pokedex() {
   const [pokemons, setPokemons] = useState([])
   const [chargement, setChargement] = useState(true)
   const [page, setPage] = useState(0)
-  const PAR_PAGE = 20
+  const PAR_PAGE = 50
 
   useEffect(() => {
     let actif = true
